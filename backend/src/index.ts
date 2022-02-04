@@ -4,5 +4,5 @@ const app = express();
 const PORT = 8080;
 
 app.listen(PORT, () => {
-  console.log(`⚡️[server]: Server is running at https://localhost:${PORT}`);
+  console.log(`[server]: Running at https://localhost:${PORT}`);
 });
